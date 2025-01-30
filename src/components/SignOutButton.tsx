@@ -25,7 +25,7 @@ const SignOutButton = async () => {
           type="submit"
           className="text-white font-bold flex items-center"
         >
-          Log out
+          Logout
         </button>
       </div>
     </form>

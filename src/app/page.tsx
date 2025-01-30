@@ -4,7 +4,7 @@ import { fetchData } from "@/hooks/fetchter";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home | Amazon Clone app",
+  title: "Amazon-Clone",
 };
 
 export default async function Home() {

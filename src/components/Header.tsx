@@ -32,7 +32,7 @@ const Header = async () => {
           <div className="headerItem hidden xl:inline-flex gap-1">
             <SlLocationPin className="text-lg text-white" />
             <div className="text-xs">
-              <p>Deliver to</p>
+              <p>Delivering to</p>
               <p className="text-white font-bold uppercase">USA</p>
             </div>
           </div>
