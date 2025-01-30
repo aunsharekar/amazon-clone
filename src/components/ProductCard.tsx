@@ -22,7 +22,7 @@ const ProductCard = ({ product }: Props) => {
           className="h-full"
         >
           <Image
-            src={product.images[0]}
+            src={product?.images[0]}
             alt="product-image"
             width={600}
             height={600}
