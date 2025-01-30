@@ -15,10 +15,7 @@ const ProductCard = ({ product }: Props) => {
     <div className="border border-gray-200 rounded-md bg-white overflow-hidden">
       <div className="relative group overflow-hidden h-72">
         <Link
-          href={{
-            pathname: `product/${product?.id}`,
-            query: { id: product?.id },
-          }}
+          href={`/product/${product?.id}`}
           className="h-full"
         >
           <Image

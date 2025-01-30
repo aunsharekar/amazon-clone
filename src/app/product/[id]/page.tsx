@@ -8,13 +8,13 @@ export const metadata: Metadata = {
 };
 
 interface Props {
-  searchParams: {
+  params: {
     id: string;
   };
 }
 
-const ProductPage = async ({ searchParams }: Props) => {
-  const { id } = searchParams;
+const ProductPage = async ({ params }: Props) => {
+  const { id } = params;
   const endpoint = `https://dummyjson.com/products/${id}`;
 
   const product = await fetchData(endpoint);
