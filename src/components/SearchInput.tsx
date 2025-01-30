@@ -23,7 +23,7 @@ const SearchInput = () => {
       }
     };
     getData();
-  }, [products]);
+  }, []);
 
   const [filteredProducts, setFilteredProducts] = useState([]);
 
